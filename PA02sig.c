@@ -9,6 +9,7 @@
 #include <sys/wait.h>
 
 int state = 0;
+pid_t pid;
 
 void signalGet(int sig) {
 	if(sig == SIGINT) {
@@ -33,7 +34,8 @@ void signalGet(int sig) {
 }
 
 int main() {
-	pid_t pid;
+	signal(SIGINT, signalGet);
+	signal(SIGTSTP, signalGet);
 	pid = fork();
 	if(pid == 0) {
 		printf("Child initialized\n");
@@ -41,4 +43,8 @@ int main() {
 	} else {
 		printf("Parent initialized\n");
 	}
+	while(1) {
+		sleep(1);
+	}
+	return(0);
 }
