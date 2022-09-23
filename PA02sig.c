@@ -19,7 +19,7 @@ void signalGet(int sig) {
 		exit(0);
 	} else if(sig == SIGTSTP) {
 		state++;
-		if(state % 2 == 0) {
+		if(state > 0) {
 			printf("Ctrl-Z caught, stopping child process...\n");
 			kill(pid, SIGSTOP);
 			printf("Child has been stopped\n");
@@ -28,6 +28,7 @@ void signalGet(int sig) {
 			printf("Ctrl-Z caught, resuming child process...\n");
 			kill(pid, SIGCONT);
 			printf("Child has been resumed\n");
+			state = 0;
 			exit(0);
 		}
 	}
@@ -44,7 +45,7 @@ int main() {
 		printf("Parent initialized\n");
 	}
 	while(1) {
-		sleep(1);
+		sleep(100);
 	}
 	return(0);
 }
