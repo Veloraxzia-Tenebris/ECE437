@@ -43,7 +43,7 @@ int main() {
 		printf("Parent initialized\n");
 	}
 	while(1) {
-		sleep(100);
+		sleep(1);
 	}
 	return(0);
 }
