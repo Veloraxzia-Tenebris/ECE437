@@ -13,18 +13,18 @@ pid_t pid;
 
 void signalGet(int sig) {
 	if(sig == SIGINT) {
-		printf("SIGINT caught, killing child process...\n");
+		printf("\nSIGINT caught, killing child process...\n");
 		kill(pid, SIGKILL);
 		printf("Child has been killed\n");
 		exit(0);
 	} else if(sig == SIGTSTP) {
-		state++;
-		if(state > 0) {
-			printf("Ctrl-Z caught, stopping child process...\n");
+		if(state == 0) {
+			printf("\nCtrl-Z caught, stopping child process...\n");
 			kill(pid, SIGSTOP);
 			printf("Child has been stopped\n");
+			state = 1;
 		} else {
-			printf("Ctrl-Z caught, resuming child process...\n");
+			printf("\nCtrl-Z caught, resuming child process...\n");
 			kill(pid, SIGCONT);
 			printf("Child has been resumed\n");
 			state = 0;
