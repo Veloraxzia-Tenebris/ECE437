@@ -23,13 +23,11 @@ void signalGet(int sig) {
 			printf("Ctrl-Z caught, stopping child process...\n");
 			kill(pid, SIGSTOP);
 			printf("Child has been stopped\n");
-			exit(0);
 		} else {
 			printf("Ctrl-Z caught, resuming child process...\n");
 			kill(pid, SIGCONT);
 			printf("Child has been resumed\n");
 			state = 0;
-			exit(0);
 		}
 	}
 }
