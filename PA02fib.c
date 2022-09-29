@@ -9,7 +9,7 @@
 #include <getopt.h>
 
 // Global variables
-int pipe;
+int pipee;
 pid_t pid;
 
 int fib_seq(int);
@@ -74,7 +74,7 @@ void myfib(int n, int m) {
 			perror("Named pipe error!");
 			exit(1);
 		}
-		if((pipe = open("data", O_RDWR)) < 0) {
+		if((pipee = open("data", O_RDWR)) < 0) {
 			perror("Named pipe open error!");
 			exit(2);
 		}
@@ -83,8 +83,8 @@ void myfib(int n, int m) {
 		int temp1, temp2;
 		temp1 = 0;
 		temp2 = 1;
-		write(pipe, &temp1, sizeof(temp1));
-		write(pipe, &temp2, sizeof(temp2));
+		write(pipee, &temp1, sizeof(temp1));
+		write(pipee, &temp2, sizeof(temp2));
 
 		// Calculate fib recursively
 		int temp = n;
@@ -97,14 +97,14 @@ void myfib(int n, int m) {
 			} else {
 				// Child process
 				// Read fib(n - 2) and fib(n - 1)
-				read(pipe, &msg1, sizeof(msg1));
-				read(pipe, &msg2, sizeof(msg2));
+				read(pipee, &msg1, sizeof(msg1));
+				read(pipee, &msg2, sizeof(msg2));
 				// Debug statement
 				printf("msg1: %d and msg2: %d\n", msg1, msg2);
 				out = msg1 + msg2;
 				// Write fib(n - 1) and fib(n)
-				write(pipe, &msg2, sizeof(msg2));
-				write(pipe, &out, sizeof(out));
+				write(pipee, &msg2, sizeof(msg2));
+				write(pipee, &out, sizeof(out));
 				exit(0);
 			}
 			temp--;
