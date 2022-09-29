@@ -13,13 +13,13 @@ int pipee;
 pid_t pid;
 
 int fib_seq(int);
-void myfib(int, int);
+int myfib(int, int);
 
 int main(int argc, char* argv[]) {
 	printf("Start fib\n");
 
 	int opt, n, m, out;
-/*
+
 	// Check for terminal inputs
 	while((opt = getopt(argc, argv, ":F:S")) != -1) {
 		switch(opt) {
@@ -36,10 +36,12 @@ int main(int argc, char* argv[]) {
 	}
 
 	// Calculate fib
-	myfib(n, m);*/
+	out = myfib(n, m);
 	// Debugging
-	myfib(6, 3);
-	read(pipee, &out, sizeof(out));
+	//myfib(6, 3);
+	if(out == 0) {
+		read(pipee, &out, sizeof(out));
+	}
 	printf("The result is %d\n", out);
 	return 0;
 }
@@ -59,13 +61,13 @@ int fib_seq(int x) { /* slow/recursive implementation of Fib */
 	}
 }
 
-void myfib(int n, int m) {
+int myfib(int n, int m) {
 	int msg1, msg2, out;
 
 	// Test for case 2 or case 1
 	if(((n - 1) <= m) && ((n - 2) <= m)) {
 		printf("Doing slow\n");
-		fib_seq(n);
+		return fib_seq(n);
 	} else {
 		printf("Doing fast\n");
 
@@ -80,7 +82,7 @@ void myfib(int n, int m) {
 		}
 
 		// Calculate fib recursively
-		int temp = n;
+		int temp = n + 1;
 		while(temp > 1) {
 			pid = fork();
 			if(pid == 0) {
@@ -108,8 +110,8 @@ void myfib(int n, int m) {
 				// Write fib(n - 1) and fib(n)
 				write(pipee, &msg2, sizeof(msg2));
 				write(pipee, &out, sizeof(out));
-				if(temp == n) {
-					return;
+				if(temp == (n + 1)) {
+					return 0;
 				} else {
 					exit(0);
 				}
@@ -118,5 +120,5 @@ void myfib(int n, int m) {
 		}
 	}
 	exit(0);
-	return;
+	return 0;
 }
