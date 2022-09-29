@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
 	int opt, n, m, out;
 
 	// Check for terminal inputs
-	while((opt = getopt(argc, argv, "F:S:")) != -1) {
+	while((opt = getopt(argc, argv, ":F:S")) != -1) {
 		switch(opt) {
 			case 'F':
 				n = atoi(optarg);
