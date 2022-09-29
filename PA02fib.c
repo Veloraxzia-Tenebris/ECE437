@@ -79,19 +79,13 @@ void myfib(int n, int m) {
 			exit(2);
 		}
 
-		// Load fib(0) and fib(1) into the pipe
-		int temp1, temp2;
-		temp1 = 0;
-		temp2 = 1;
-		write(pipee, &temp1, sizeof(temp1));
-		write(pipee, &temp2, sizeof(temp2));
-
 		// Calculate fib recursively
 		int temp = n;
 		while(temp > 1) {
 			pid = fork();
 			if(pid == 0) {
 				// Parent process
+				wait(NULL);
 				// Read fib(n - 2) and fib(n - 1)
 				read(pipee, &msg1, sizeof(msg1));
 				read(pipee, &msg2, sizeof(msg2));
@@ -101,11 +95,18 @@ void myfib(int n, int m) {
 				// Write fib(n - 1) and fib(n)
 				write(pipee, &msg2, sizeof(msg2));
 				write(pipee, &out, sizeof(out));
-				wait(NULL);
 				exit(0);
 			} else {
 				// Child process
 				temp--;
+				if(temp == 1) {
+					// Load fib(0) and fib(1) into the pipe
+					int temp1, temp2;
+					temp1 = 0;
+					temp2 = 1;
+					write(pipee, &temp1, sizeof(temp1));
+					write(pipee, &temp2, sizeof(temp2));
+				}
 			}
 		}
 	}
