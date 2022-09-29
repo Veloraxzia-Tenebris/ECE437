@@ -18,7 +18,7 @@ void myfib(int, int);
 int main(int argc, char* argv[]) {
 	printf("Start fib\n");
 
-	int opt, n, m;
+	int opt, n, m, out;
 
 	// Check for terminal inputs
 	while((opt = getopt(argc, argv, "F:S:")) != -1) {
@@ -37,8 +37,10 @@ int main(int argc, char* argv[]) {
 
 	// Calculate fib
 	myfib(n, m);
-
-	myfib(6, 3);
+	// Debugging
+	//myfib(6, 3);
+	read(pipe, &out, sizeof(out));
+	printf("The result is %d\n", out);
 	return 0;
 }
 
@@ -58,7 +60,7 @@ int fib_seq(int x) { /* slow/recursive implementation of Fib */
 }
 
 void myfib(int n, int m) {
-	int stat;
+	int msg1, msg2, out;
 
 	// Test for case 2 or case 1
 	if(((n - 1) <= m) && ((n - 2) <= m)) {
@@ -91,43 +93,22 @@ void myfib(int n, int m) {
 			if(pid == 0) {
 				// Parent process
 				wait(NULL);
-			} else {
-				// Child process
-				
-			}
-		}
-
-
-
-		int temp = n;
-		pid = fork();
-		while(temp > 2) {
-			if(pid == 0) {
-				printf("Parent for %d created.\n", temp);
-				waitpid(pid, &stat, 0);
-				int msg1, msg2;
-				read(pipe, &msg1, sizeof(msg1));
-				read(pipe, &msg2, sizeof(msg2));
-				printf("Pipe: msg1: %d, msg2: %d\n", msg1, msg2);
 				exit(0);
 			} else {
-				printf("Child for %d created.\n", temp);
-				pid = fork();
+				// Child process
+				// Read fib(n - 2) and fib(n - 1)
+				read(pipe, &msg1, sizeof(msg1));
+				read(pipe, &msg2, sizeof(msg2));
+				// Debug statement
+				printf("msg1: %d and msg2: %d\n", msg1, msg2);
+				out = msg1 + msg2;
+				// Write fib(n - 1) and fib(n)
+				write(pipe, &msg2, sizeof(msg2));
+				write(pipe, &out, sizeof(out));
+				exit(0);
 			}
 			temp--;
 		}
-		if(pid == 0) {
-			printf("Parent calculation started for pipe data ");
-			int msg1, msg2, out;
-			read(pipe, &msg1, sizeof(msg1));
-			printf("test");
-			read(pipe, &msg2, sizeof(msg2));
-			printf("msg1: %d and msg2: %d\n", msg1, msg2);
-			out = msg1 + msg2;
-			write(pipe, &msg2, sizeof(msg2));
-			write(pipe, &out, sizeof(out));
-			exit(0);
-		}
-		return;
 	}
+	return;
 }
