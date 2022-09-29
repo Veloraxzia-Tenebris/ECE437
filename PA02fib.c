@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 	printf("Start fib\n");
 
 	int opt, n, m, out;
-
+/*
 	// Check for terminal inputs
 	while((opt = getopt(argc, argv, ":F:S")) != -1) {
 		switch(opt) {
@@ -36,9 +36,9 @@ int main(int argc, char* argv[]) {
 	}
 
 	// Calculate fib
-	myfib(n, m);
+	myfib(n, m);*/
 	// Debugging
-	//myfib(6, 3);
+	myfib(6, 3);
 	read(pipee, &out, sizeof(out));
 	printf("The result is %d\n", out);
 	return 0;
