@@ -6,12 +6,38 @@
 #include <errno.h>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <getopt.h>
+
+// Global variables
+int pipe;
+pid_t pid;
 
 int fib_seq(int);
 void myfib(int, int);
 
-int main() {
-	printf("Start\n");
+int main(int argc, char* argv[]) {
+	printf("Start fib\n");
+
+	int opt, n, m;
+
+	// Check for terminal inputs
+	while((opt = getopt(argc, argv, "F:S:")) != -1) {
+		switch(opt) {
+			case 'F':
+				n = atoi(optarg);
+				break;
+			case 'S':
+				m = atoi(optarg);
+				break;
+			default:
+				printf("Input error!\n");
+				break;
+		}
+	}
+
+	// Calculate fib
+	myfib(n, m);
+
 	myfib(6, 3);
 	return 0;
 }
@@ -33,14 +59,15 @@ int fib_seq(int x) { /* slow/recursive implementation of Fib */
 
 void myfib(int n, int m) {
 	int stat;
+
+	// Test for case 2 or case 1
 	if(((n - 1) <= m) && ((n - 2) <= m)) {
 		printf("Doing slow\n");
 		fib_seq(n);
 	} else {
 		printf("Doing fast\n");
-		pid_t pid;
-		extern int errno;
-		int pipe;
+
+		// Make pipe
 		if(mkfifo("data", 0666) < 0 && errno != EEXIST) {
 			perror("Named pipe error!");
 			exit(1);
@@ -49,11 +76,29 @@ void myfib(int n, int m) {
 			perror("Named pipe open error!");
 			exit(2);
 		}
+
+		// Load fib(0) and fib(1) into the pipe
 		int temp1, temp2;
 		temp1 = 0;
 		temp2 = 1;
 		write(pipe, &temp1, sizeof(temp1));
 		write(pipe, &temp2, sizeof(temp2));
+
+		// Calculate fib recursively
+		int temp = n;
+		while(temp > 1) {
+			pid = fork();
+			if(pid == 0) {
+				// Parent process
+				wait(NULL);
+			} else {
+				// Child process
+				
+			}
+		}
+
+
+
 		int temp = n;
 		pid = fork();
 		while(temp > 2) {
