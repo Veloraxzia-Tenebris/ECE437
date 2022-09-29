@@ -98,8 +98,7 @@ void myfib(int n, int m) {
 				exit(0);
 			} else {
 				// Child process
-				temp--;
-				if(temp == 1) {
+				if(temp == 2) {
 					// Load fib(0) and fib(1) into the pipe
 					int temp1, temp2;
 					temp1 = 0;
@@ -108,6 +107,7 @@ void myfib(int n, int m) {
 					write(pipee, &temp2, sizeof(temp2));
 				}
 			}
+			temp--;
 		}
 	}
 	return;
