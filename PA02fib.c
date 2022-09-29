@@ -92,10 +92,6 @@ void myfib(int n, int m) {
 			pid = fork();
 			if(pid == 0) {
 				// Parent process
-				wait(NULL);
-				exit(0);
-			} else {
-				// Child process
 				// Read fib(n - 2) and fib(n - 1)
 				read(pipee, &msg1, sizeof(msg1));
 				read(pipee, &msg2, sizeof(msg2));
@@ -105,9 +101,12 @@ void myfib(int n, int m) {
 				// Write fib(n - 1) and fib(n)
 				write(pipee, &msg2, sizeof(msg2));
 				write(pipee, &out, sizeof(out));
+				wait(NULL);
 				exit(0);
+			} else {
+				// Child process
+				temp--;
 			}
-			temp--;
 		}
 	}
 	return;
