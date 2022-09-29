@@ -11,6 +11,7 @@
 // Global variables
 int pipee;
 pid_t pid;
+int temp;
 
 int fib_seq(int);
 void myfib(int, int);
@@ -80,7 +81,7 @@ void myfib(int n, int m) {
 		}
 
 		// Calculate fib recursively
-		int temp = n;
+		temp = n;
 		while(temp > 1) {
 			pid = fork();
 			if(pid == 0) {
@@ -95,7 +96,11 @@ void myfib(int n, int m) {
 				// Write fib(n - 1) and fib(n)
 				write(pipee, &msg2, sizeof(msg2));
 				write(pipee, &out, sizeof(out));
-				exit(0);
+				if(temp == n) {
+					return;
+				} else {
+					exit(0);
+				}
 			} else {
 				// Child process
 				if(temp == 2) {
@@ -110,5 +115,6 @@ void myfib(int n, int m) {
 			temp--;
 		}
 	}
+	exit(0);
 	return;
 }
