@@ -39,7 +39,7 @@ int main(int argc, char* argv[]) {
 	myfib(n, m);
 	// Debugging
 	//myfib(6, 3);
-	read(pipe, &out, sizeof(out));
+	read(pipee, &out, sizeof(out));
 	printf("The result is %d\n", out);
 	return 0;
 }
