@@ -22,7 +22,8 @@ struct bank {
 struct bank *Bank;
 
 // Semaphore global variable
-sem_t *mutex;
+sem_t mutex;
+sem_t *mutexPtr;
 
 void* MakeTransactions() {
 	int i, j, tmp1, tmp2, rint;
@@ -30,7 +31,7 @@ void* MakeTransactions() {
 	for(i = 0; i < 100; i++) {
 
 		// Force other processes to wait until the semaphore has been signaled
-		sem_wait(mutex);
+		sem_wait(&mutex);
 		// Enter the critical section
 
 		// Make a random amount from [0 29] - 15 => [-15 14]
@@ -46,7 +47,7 @@ void* MakeTransactions() {
 		}
 
 		// Signal the semaphore
-		sem_post(mutex);
+		sem_post(&mutex);
 		// Exit the critical section
 
 	}
@@ -66,13 +67,15 @@ int main(int argc, char **argv) {
 		exit(1);
 	}
 	// If there's an error in attaching to the shared memory segment for the bank
-	if((mutex = shmat(shmidSem, NULL, 0)) == (sem_t*) - 1) {
+	if((mutexPtr = shmat(shmidSem, NULL, 0)) == (sem_t*) - 1) {
 		perror("Error in shmatSem");
 		exit(1);
 	}
 
+	&mutex = mutexPtr;
+
 	// Initialize the semaphore with sharing
-	sem_init(mutex, 1, 1);
+	sem_init(&mutex, 1, 1);
 
 	// Make a shared memory key for the bank
 	key_t key = ftok("shmfile", 65);
