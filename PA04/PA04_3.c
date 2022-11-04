@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <time.h>
+#include <errno.h>
 #include <sys/types.h>
 #include <sys/ipc.h>
 #include <sys/shm.h>

@@ -3,6 +3,7 @@
 #include <stdlib.h> 
 #include <pthread.h>
 #include <time.h>
+#include <errno.h>
 
 struct {
 	int balance[2];
