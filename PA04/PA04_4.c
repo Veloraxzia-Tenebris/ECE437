@@ -9,7 +9,8 @@
 #include <sys/wait.h>
 // Added to use the kill function
 #include <signal.h>
-// Shared memory size
+#include <semaphore.h>
+// Shared memory size for bank
 #define SHMSZ 2
 
 // Bank structure
