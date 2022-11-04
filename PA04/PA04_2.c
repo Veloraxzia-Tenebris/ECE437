@@ -20,6 +20,7 @@ void* MakeTransactions() {
 
 		// Lock the mutex as we are going to access the shared data
 		pthread_mutex_lock(&shared_mutex);
+		// Enter the critical section
 
 		// Make a random amount from [0 29] - 15 => [-15 14]
 		rint = (rand() % 30) - 15; 
@@ -35,6 +36,7 @@ void* MakeTransactions() {
 
 		// Unlock The mutex when we are done
 		pthread_mutex_unlock(&shared_mutex);
+		// Exit the critical section
 
 	}
 	return NULL;
