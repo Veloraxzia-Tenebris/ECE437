@@ -13,6 +13,7 @@ void* MakeTransactions() {
 	int i, j, tmp1, tmp2, rint;
 	double dummy; 
 	for(i = 0; i < 100; i++) { 
+		// Make a random amount from [0 29] - 15 => [-15 14]
 		rint = (rand() % 30) - 15; 
 		if(((tmp1 = Bank.balance[0]) + rint) >= 0 && ((tmp2 = Bank.balance[1]) - rint) >= 0) {
 			// Add a 100 random amounts to A
