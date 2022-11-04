@@ -65,11 +65,13 @@ int main(int argc, char **argv) {
 		perror("Error in shmidSem");
 		exit(1);
 	}
-	// If there's an error in attaching to the shared memory segment for the bank
+	// If there's an error in attaching to the shared memory segment for the semaphore
 	if((mutexPtr = shmat(shmidSem, NULL, 0)) == (sem_t*) - 1) {
 		perror("Error in shmatSem");
 		exit(1);
 	}
+
+	mutexPtr = (sem_t*) (mutexPtr + 1);
 
 	// Initialize the semaphore with sharing
 	sem_init(mutexPtr, 1, 1);
