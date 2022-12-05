@@ -194,7 +194,7 @@ int main(int argc, char *argv[]) {
 		timer(53);							// Time for ride to complete
 		pthread_mutex_destroy(&shared_mutex);		// Become what we sought to destroy
 		k++;
-		count++;								// Fpdate count value for step 
+		count++;								// Update count value for step 
 	}
 
 	int TotalRide = TotalPeopleShowed - Rejected;	// Calculate amount of people who rode ride
