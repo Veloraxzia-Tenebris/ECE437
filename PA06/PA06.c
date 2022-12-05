@@ -124,7 +124,7 @@ void *RideOperator(void *varp){
 		PeopleWaiting = MAXWAITPEOPLE;
 	}
 	if(PeopleWaiting > (CARNUM * MAXPERCAR)) {
-		TimeWaiting += PeopleWaiting
+		TimeWaiting += PeopleWaiting;
 	}
 	// Update worst time if we have a longer line added >= so if there is 800 people again the worst time updates
 	if(PeopleWaiting >= LongestLine) {
