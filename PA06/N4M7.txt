@@ -1,607 +1,600 @@
-N was 4
-M was 7
-0, arrived 30, Rejected 0, In line 30, at 9:0:0
-1, arrived 24, Rejected 0, In line 26, at 9:1:0
-2, arrived 29, Rejected 0, In line 29, at 9:2:0
-3, arrived 29, Rejected 0, In line 30, at 9:3:0
-4, arrived 32, Rejected 0, In line 34, at 9:4:0
-5, arrived 21, Rejected 0, In line 27, at 9:5:0
-6, arrived 23, Rejected 0, In line 23, at 9:6:0
-7, arrived 29, Rejected 0, In line 29, at 9:7:0
-8, arrived 22, Rejected 0, In line 23, at 9:8:0
-9, arrived 26, Rejected 0, In line 26, at 9:9:0
-10, arrived 25, Rejected 0, In line 25, at 9:10:0
-11, arrived 26, Rejected 0, In line 26, at 9:11:0
-12, arrived 23, Rejected 0, In line 23, at 9:12:0
-13, arrived 25, Rejected 0, In line 25, at 9:13:0
-14, arrived 34, Rejected 0, In line 34, at 9:14:0
-15, arrived 32, Rejected 0, In line 38, at 9:15:0
-16, arrived 27, Rejected 0, In line 37, at 9:16:0
-17, arrived 28, Rejected 0, In line 37, at 9:17:0
-18, arrived 20, Rejected 0, In line 29, at 9:18:0
-19, arrived 26, Rejected 0, In line 27, at 9:19:0
-20, arrived 15, Rejected 0, In line 15, at 9:20:0
-21, arrived 21, Rejected 0, In line 21, at 9:21:0
-22, arrived 20, Rejected 0, In line 20, at 9:22:0
-23, arrived 29, Rejected 0, In line 29, at 9:23:0
-24, arrived 20, Rejected 0, In line 21, at 9:24:0
-25, arrived 24, Rejected 0, In line 24, at 9:25:0
-26, arrived 19, Rejected 0, In line 19, at 9:26:0
-27, arrived 19, Rejected 0, In line 19, at 9:27:0
-28, arrived 42, Rejected 0, In line 42, at 9:28:0
-29, arrived 21, Rejected 0, In line 35, at 9:29:0
-30, arrived 25, Rejected 0, In line 32, at 9:30:0
-31, arrived 30, Rejected 0, In line 34, at 9:31:0
-32, arrived 26, Rejected 0, In line 32, at 9:32:0
-33, arrived 22, Rejected 0, In line 26, at 9:33:0
-34, arrived 27, Rejected 0, In line 27, at 9:34:0
-35, arrived 25, Rejected 0, In line 25, at 9:35:0
-36, arrived 25, Rejected 0, In line 25, at 9:36:0
-37, arrived 35, Rejected 0, In line 35, at 9:37:0
-38, arrived 22, Rejected 0, In line 29, at 9:38:0
-39, arrived 29, Rejected 0, In line 30, at 9:39:0
-40, arrived 25, Rejected 0, In line 27, at 9:40:0
-41, arrived 29, Rejected 0, In line 29, at 9:41:0
-42, arrived 24, Rejected 0, In line 25, at 9:42:0
-43, arrived 31, Rejected 0, In line 31, at 9:43:0
-44, arrived 22, Rejected 0, In line 25, at 9:44:0
-45, arrived 23, Rejected 0, In line 23, at 9:45:0
-46, arrived 29, Rejected 0, In line 29, at 9:46:0
-47, arrived 32, Rejected 0, In line 33, at 9:47:0
-48, arrived 18, Rejected 0, In line 23, at 9:48:0
-49, arrived 33, Rejected 0, In line 33, at 9:49:0
-50, arrived 25, Rejected 0, In line 30, at 9:50:0
-51, arrived 18, Rejected 0, In line 20, at 9:51:0
-52, arrived 21, Rejected 0, In line 21, at 9:52:0
-53, arrived 27, Rejected 0, In line 27, at 9:53:0
-54, arrived 31, Rejected 0, In line 31, at 9:54:0
-55, arrived 23, Rejected 0, In line 26, at 9:55:0
-56, arrived 18, Rejected 0, In line 18, at 9:56:0
-57, arrived 15, Rejected 0, In line 15, at 9:57:0
-58, arrived 24, Rejected 0, In line 24, at 9:58:0
-59, arrived 18, Rejected 0, In line 18, at 9:59:0
-60, arrived 21, Rejected 0, In line 21, at 10:0:0
-61, arrived 35, Rejected 0, In line 35, at 10:1:0
-62, arrived 32, Rejected 0, In line 39, at 10:2:0
-63, arrived 30, Rejected 0, In line 41, at 10:3:0
-64, arrived 22, Rejected 0, In line 35, at 10:4:0
-65, arrived 25, Rejected 0, In line 32, at 10:5:0
-66, arrived 23, Rejected 0, In line 27, at 10:6:0
-67, arrived 28, Rejected 0, In line 28, at 10:7:0
-68, arrived 25, Rejected 0, In line 25, at 10:8:0
-69, arrived 27, Rejected 0, In line 27, at 10:9:0
-70, arrived 25, Rejected 0, In line 25, at 10:10:0
-71, arrived 17, Rejected 0, In line 17, at 10:11:0
-72, arrived 24, Rejected 0, In line 24, at 10:12:0
-73, arrived 33, Rejected 0, In line 33, at 10:13:0
-74, arrived 33, Rejected 0, In line 38, at 10:14:0
-75, arrived 28, Rejected 0, In line 38, at 10:15:0
-76, arrived 22, Rejected 0, In line 32, at 10:16:0
-77, arrived 28, Rejected 0, In line 32, at 10:17:0
-78, arrived 27, Rejected 0, In line 31, at 10:18:0
-79, arrived 23, Rejected 0, In line 26, at 10:19:0
-80, arrived 27, Rejected 0, In line 27, at 10:20:0
-81, arrived 20, Rejected 0, In line 20, at 10:21:0
-82, arrived 24, Rejected 0, In line 24, at 10:22:0
-83, arrived 31, Rejected 0, In line 31, at 10:23:0
-84, arrived 30, Rejected 0, In line 33, at 10:24:0
-85, arrived 23, Rejected 0, In line 28, at 10:25:0
-86, arrived 21, Rejected 0, In line 21, at 10:26:0
-87, arrived 31, Rejected 0, In line 31, at 10:27:0
-88, arrived 23, Rejected 0, In line 26, at 10:28:0
-89, arrived 27, Rejected 0, In line 27, at 10:29:0
-90, arrived 34, Rejected 0, In line 34, at 10:30:0
-91, arrived 26, Rejected 0, In line 32, at 10:31:0
-92, arrived 27, Rejected 0, In line 31, at 10:32:0
-93, arrived 30, Rejected 0, In line 33, at 10:33:0
-94, arrived 24, Rejected 0, In line 29, at 10:34:0
-95, arrived 32, Rejected 0, In line 33, at 10:35:0
-96, arrived 24, Rejected 0, In line 29, at 10:36:0
-97, arrived 29, Rejected 0, In line 30, at 10:37:0
-98, arrived 27, Rejected 0, In line 29, at 10:38:0
-99, arrived 32, Rejected 0, In line 33, at 10:39:0
-100, arrived 25, Rejected 0, In line 30, at 10:40:0
-101, arrived 21, Rejected 0, In line 23, at 10:41:0
-102, arrived 34, Rejected 0, In line 34, at 10:42:0
-103, arrived 32, Rejected 0, In line 38, at 10:43:0
-104, arrived 20, Rejected 0, In line 30, at 10:44:0
-105, arrived 31, Rejected 0, In line 33, at 10:45:0
-106, arrived 27, Rejected 0, In line 32, at 10:46:0
-107, arrived 24, Rejected 0, In line 28, at 10:47:0
-108, arrived 26, Rejected 0, In line 26, at 10:48:0
-109, arrived 22, Rejected 0, In line 22, at 10:49:0
-110, arrived 29, Rejected 0, In line 29, at 10:50:0
-111, arrived 22, Rejected 0, In line 23, at 10:51:0
-112, arrived 24, Rejected 0, In line 24, at 10:52:0
-113, arrived 21, Rejected 0, In line 21, at 10:53:0
-114, arrived 21, Rejected 0, In line 21, at 10:54:0
-115, arrived 22, Rejected 0, In line 22, at 10:55:0
-116, arrived 26, Rejected 0, In line 26, at 10:56:0
-117, arrived 24, Rejected 0, In line 24, at 10:57:0
-118, arrived 20, Rejected 0, In line 20, at 10:58:0
-119, arrived 32, Rejected 0, In line 32, at 10:59:0
-120, arrived 37, Rejected 0, In line 41, at 11:0:0
-121, arrived 37, Rejected 0, In line 50, at 11:1:0
-122, arrived 45, Rejected 0, In line 67, at 11:2:0
-123, arrived 50, Rejected 0, In line 89, at 11:3:0
-124, arrived 60, Rejected 0, In line 121, at 11:4:0
-125, arrived 55, Rejected 0, In line 148, at 11:5:0
-126, arrived 48, Rejected 0, In line 168, at 11:6:0
-127, arrived 43, Rejected 0, In line 183, at 11:7:0
-128, arrived 49, Rejected 0, In line 204, at 11:8:0
-129, arrived 43, Rejected 0, In line 219, at 11:9:0
-130, arrived 41, Rejected 0, In line 232, at 11:10:0
-131, arrived 40, Rejected 0, In line 244, at 11:11:0
-132, arrived 46, Rejected 0, In line 262, at 11:12:0
-133, arrived 40, Rejected 0, In line 274, at 11:13:0
-134, arrived 38, Rejected 0, In line 284, at 11:14:0
-135, arrived 49, Rejected 0, In line 305, at 11:15:0
-136, arrived 37, Rejected 0, In line 314, at 11:16:0
-137, arrived 50, Rejected 0, In line 336, at 11:17:0
-138, arrived 38, Rejected 0, In line 346, at 11:18:0
-139, arrived 49, Rejected 0, In line 367, at 11:19:0
-140, arrived 36, Rejected 0, In line 375, at 11:20:0
-141, arrived 56, Rejected 0, In line 403, at 11:21:0
-142, arrived 34, Rejected 0, In line 409, at 11:22:0
-143, arrived 45, Rejected 0, In line 426, at 11:23:0
-144, arrived 39, Rejected 0, In line 437, at 11:24:0
-145, arrived 40, Rejected 0, In line 449, at 11:25:0
-146, arrived 51, Rejected 0, In line 472, at 11:26:0
-147, arrived 49, Rejected 0, In line 493, at 11:27:0
-148, arrived 48, Rejected 0, In line 513, at 11:28:0
-149, arrived 58, Rejected 0, In line 543, at 11:29:0
-150, arrived 47, Rejected 0, In line 562, at 11:30:0
-151, arrived 50, Rejected 0, In line 584, at 11:31:0
-152, arrived 36, Rejected 0, In line 592, at 11:32:0
-153, arrived 38, Rejected 0, In line 602, at 11:33:0
-154, arrived 45, Rejected 0, In line 619, at 11:34:0
-155, arrived 36, Rejected 0, In line 627, at 11:35:0
-156, arrived 35, Rejected 0, In line 634, at 11:36:0
-157, arrived 39, Rejected 0, In line 645, at 11:37:0
-158, arrived 44, Rejected 0, In line 661, at 11:38:0
-159, arrived 51, Rejected 0, In line 684, at 11:39:0
-160, arrived 46, Rejected 0, In line 702, at 11:40:0
-161, arrived 50, Rejected 0, In line 724, at 11:41:0
-162, arrived 34, Rejected 0, In line 730, at 11:42:0
-163, arrived 38, Rejected 0, In line 740, at 11:43:0
-164, arrived 77, Rejected 0, In line 789, at 11:44:0
-165, arrived 39, Rejected 0, In line 800, at 11:45:0
-166, arrived 53, Rejected 25, In line 800, at 11:46:0
-167, arrived 37, Rejected 9, In line 800, at 11:47:0
-168, arrived 65, Rejected 37, In line 800, at 11:48:0
-169, arrived 35, Rejected 7, In line 800, at 11:49:0
-170, arrived 53, Rejected 25, In line 800, at 11:50:0
-171, arrived 35, Rejected 7, In line 800, at 11:51:0
-172, arrived 28, Rejected 0, In line 800, at 11:52:0
-173, arrived 55, Rejected 27, In line 800, at 11:53:0
-174, arrived 46, Rejected 18, In line 800, at 11:54:0
-175, arrived 39, Rejected 11, In line 800, at 11:55:0
-176, arrived 38, Rejected 10, In line 800, at 11:56:0
-177, arrived 43, Rejected 15, In line 800, at 11:57:0
-178, arrived 54, Rejected 26, In line 800, at 11:58:0
-179, arrived 51, Rejected 23, In line 800, at 11:59:0
-180, arrived 42, Rejected 14, In line 800, at 12:0:0
-181, arrived 46, Rejected 18, In line 800, at 12:1:0
-182, arrived 46, Rejected 18, In line 800, at 12:2:0
-183, arrived 44, Rejected 16, In line 800, at 12:3:0
-184, arrived 48, Rejected 20, In line 800, at 12:4:0
-185, arrived 37, Rejected 9, In line 800, at 12:5:0
-186, arrived 45, Rejected 17, In line 800, at 12:6:0
-187, arrived 50, Rejected 22, In line 800, at 12:7:0
-188, arrived 41, Rejected 13, In line 800, at 12:8:0
-189, arrived 62, Rejected 34, In line 800, at 12:9:0
-190, arrived 46, Rejected 18, In line 800, at 12:10:0
-191, arrived 53, Rejected 25, In line 800, at 12:11:0
-192, arrived 49, Rejected 21, In line 800, at 12:12:0
-193, arrived 47, Rejected 19, In line 800, at 12:13:0
-194, arrived 33, Rejected 5, In line 800, at 12:14:0
-195, arrived 49, Rejected 21, In line 800, at 12:15:0
-196, arrived 51, Rejected 23, In line 800, at 12:16:0
-197, arrived 55, Rejected 27, In line 800, at 12:17:0
-198, arrived 53, Rejected 25, In line 800, at 12:18:0
-199, arrived 51, Rejected 23, In line 800, at 12:19:0
-200, arrived 59, Rejected 31, In line 800, at 12:20:0
-201, arrived 49, Rejected 21, In line 800, at 12:21:0
-202, arrived 54, Rejected 26, In line 800, at 12:22:0
-203, arrived 60, Rejected 32, In line 800, at 12:23:0
-204, arrived 48, Rejected 20, In line 800, at 12:24:0
-205, arrived 45, Rejected 17, In line 800, at 12:25:0
-206, arrived 38, Rejected 10, In line 800, at 12:26:0
-207, arrived 51, Rejected 23, In line 800, at 12:27:0
-208, arrived 53, Rejected 25, In line 800, at 12:28:0
-209, arrived 36, Rejected 8, In line 800, at 12:29:0
-210, arrived 47, Rejected 19, In line 800, at 12:30:0
-211, arrived 40, Rejected 12, In line 800, at 12:31:0
-212, arrived 47, Rejected 19, In line 800, at 12:32:0
-213, arrived 40, Rejected 12, In line 800, at 12:33:0
-214, arrived 48, Rejected 20, In line 800, at 12:34:0
-215, arrived 42, Rejected 14, In line 800, at 12:35:0
-216, arrived 42, Rejected 14, In line 800, at 12:36:0
-217, arrived 40, Rejected 12, In line 800, at 12:37:0
-218, arrived 35, Rejected 7, In line 800, at 12:38:0
-219, arrived 47, Rejected 19, In line 800, at 12:39:0
-220, arrived 40, Rejected 12, In line 800, at 12:40:0
-221, arrived 47, Rejected 19, In line 800, at 12:41:0
-222, arrived 45, Rejected 17, In line 800, at 12:42:0
-223, arrived 58, Rejected 30, In line 800, at 12:43:0
-224, arrived 41, Rejected 13, In line 800, at 12:44:0
-225, arrived 46, Rejected 18, In line 800, at 12:45:0
-226, arrived 49, Rejected 21, In line 800, at 12:46:0
-227, arrived 37, Rejected 9, In line 800, at 12:47:0
-228, arrived 44, Rejected 16, In line 800, at 12:48:0
-229, arrived 46, Rejected 18, In line 800, at 12:49:0
-230, arrived 56, Rejected 28, In line 800, at 12:50:0
-231, arrived 44, Rejected 16, In line 800, at 12:51:0
-232, arrived 42, Rejected 14, In line 800, at 12:52:0
-233, arrived 52, Rejected 24, In line 800, at 12:53:0
-234, arrived 44, Rejected 16, In line 800, at 12:54:0
-235, arrived 28, Rejected 0, In line 800, at 12:55:0
-236, arrived 42, Rejected 14, In line 800, at 12:56:0
-237, arrived 47, Rejected 19, In line 800, at 12:57:0
-238, arrived 51, Rejected 23, In line 800, at 12:58:0
-239, arrived 40, Rejected 12, In line 800, at 12:59:0
-240, arrived 48, Rejected 20, In line 800, at 13:0:0
-241, arrived 45, Rejected 17, In line 800, at 13:1:0
-242, arrived 45, Rejected 17, In line 800, at 13:2:0
-243, arrived 41, Rejected 13, In line 800, at 13:3:0
-244, arrived 49, Rejected 21, In line 800, at 13:4:0
-245, arrived 39, Rejected 11, In line 800, at 13:5:0
-246, arrived 47, Rejected 19, In line 800, at 13:6:0
-247, arrived 34, Rejected 6, In line 800, at 13:7:0
-248, arrived 43, Rejected 15, In line 800, at 13:8:0
-249, arrived 48, Rejected 20, In line 800, at 13:9:0
-250, arrived 48, Rejected 20, In line 800, at 13:10:0
-251, arrived 47, Rejected 19, In line 800, at 13:11:0
-252, arrived 42, Rejected 14, In line 800, at 13:12:0
-253, arrived 39, Rejected 11, In line 800, at 13:13:0
-254, arrived 47, Rejected 19, In line 800, at 13:14:0
-255, arrived 47, Rejected 19, In line 800, at 13:15:0
-256, arrived 49, Rejected 21, In line 800, at 13:16:0
-257, arrived 42, Rejected 14, In line 800, at 13:17:0
-258, arrived 49, Rejected 21, In line 800, at 13:18:0
-259, arrived 39, Rejected 11, In line 800, at 13:19:0
-260, arrived 55, Rejected 27, In line 800, at 13:20:0
-261, arrived 48, Rejected 20, In line 800, at 13:21:0
-262, arrived 47, Rejected 19, In line 800, at 13:22:0
-263, arrived 41, Rejected 13, In line 800, at 13:23:0
-264, arrived 45, Rejected 17, In line 800, at 13:24:0
-265, arrived 36, Rejected 8, In line 800, at 13:25:0
-266, arrived 41, Rejected 13, In line 800, at 13:26:0
-267, arrived 53, Rejected 25, In line 800, at 13:27:0
-268, arrived 48, Rejected 20, In line 800, at 13:28:0
-269, arrived 36, Rejected 8, In line 800, at 13:29:0
-270, arrived 37, Rejected 9, In line 800, at 13:30:0
-271, arrived 42, Rejected 14, In line 800, at 13:31:0
-272, arrived 46, Rejected 18, In line 800, at 13:32:0
-273, arrived 46, Rejected 18, In line 800, at 13:33:0
-274, arrived 48, Rejected 20, In line 800, at 13:34:0
-275, arrived 41, Rejected 13, In line 800, at 13:35:0
-276, arrived 50, Rejected 22, In line 800, at 13:36:0
-277, arrived 41, Rejected 13, In line 800, at 13:37:0
-278, arrived 42, Rejected 14, In line 800, at 13:38:0
-279, arrived 39, Rejected 11, In line 800, at 13:39:0
-280, arrived 60, Rejected 32, In line 800, at 13:40:0
-281, arrived 28, Rejected 0, In line 800, at 13:41:0
-282, arrived 51, Rejected 23, In line 800, at 13:42:0
-283, arrived 42, Rejected 14, In line 800, at 13:43:0
-284, arrived 39, Rejected 11, In line 800, at 13:44:0
-285, arrived 44, Rejected 16, In line 800, at 13:45:0
-286, arrived 57, Rejected 29, In line 800, at 13:46:0
-287, arrived 55, Rejected 27, In line 800, at 13:47:0
-288, arrived 50, Rejected 22, In line 800, at 13:48:0
-289, arrived 48, Rejected 20, In line 800, at 13:49:0
-290, arrived 37, Rejected 9, In line 800, at 13:50:0
-291, arrived 48, Rejected 20, In line 800, at 13:51:0
-292, arrived 43, Rejected 15, In line 800, at 13:52:0
-293, arrived 50, Rejected 22, In line 800, at 13:53:0
-294, arrived 56, Rejected 28, In line 800, at 13:54:0
-295, arrived 54, Rejected 26, In line 800, at 13:55:0
-296, arrived 52, Rejected 24, In line 800, at 13:56:0
-297, arrived 39, Rejected 11, In line 800, at 13:57:0
-298, arrived 50, Rejected 22, In line 800, at 13:58:0
-299, arrived 46, Rejected 18, In line 800, at 13:59:0
-300, arrived 32, Rejected 4, In line 800, at 14:0:0
-301, arrived 43, Rejected 15, In line 800, at 14:1:0
-302, arrived 43, Rejected 15, In line 800, at 14:2:0
-303, arrived 42, Rejected 14, In line 800, at 14:3:0
-304, arrived 35, Rejected 7, In line 800, at 14:4:0
-305, arrived 36, Rejected 8, In line 800, at 14:5:0
-306, arrived 29, Rejected 1, In line 800, at 14:6:0
-307, arrived 31, Rejected 3, In line 800, at 14:7:0
-308, arrived 42, Rejected 14, In line 800, at 14:8:0
-309, arrived 35, Rejected 7, In line 800, at 14:9:0
-310, arrived 34, Rejected 6, In line 800, at 14:10:0
-311, arrived 41, Rejected 13, In line 800, at 14:11:0
-312, arrived 35, Rejected 7, In line 800, at 14:12:0
-313, arrived 32, Rejected 4, In line 800, at 14:13:0
-314, arrived 30, Rejected 2, In line 800, at 14:14:0
-315, arrived 38, Rejected 10, In line 800, at 14:15:0
-316, arrived 38, Rejected 10, In line 800, at 14:16:0
-317, arrived 29, Rejected 1, In line 800, at 14:17:0
-318, arrived 36, Rejected 8, In line 800, at 14:18:0
-319, arrived 35, Rejected 7, In line 800, at 14:19:0
-320, arrived 41, Rejected 13, In line 800, at 14:20:0
-321, arrived 38, Rejected 10, In line 800, at 14:21:0
-322, arrived 30, Rejected 2, In line 800, at 14:22:0
-323, arrived 30, Rejected 2, In line 800, at 14:23:0
-324, arrived 35, Rejected 7, In line 800, at 14:24:0
-325, arrived 28, Rejected 0, In line 800, at 14:25:0
-326, arrived 29, Rejected 1, In line 800, at 14:26:0
-327, arrived 33, Rejected 5, In line 800, at 14:27:0
-328, arrived 32, Rejected 4, In line 800, at 14:28:0
-329, arrived 44, Rejected 16, In line 800, at 14:29:0
-330, arrived 43, Rejected 15, In line 800, at 14:30:0
-331, arrived 37, Rejected 9, In line 800, at 14:31:0
-332, arrived 41, Rejected 13, In line 800, at 14:32:0
-333, arrived 40, Rejected 12, In line 800, at 14:33:0
-334, arrived 35, Rejected 7, In line 800, at 14:34:0
-335, arrived 32, Rejected 4, In line 800, at 14:35:0
-336, arrived 33, Rejected 5, In line 800, at 14:36:0
-337, arrived 37, Rejected 9, In line 800, at 14:37:0
-338, arrived 36, Rejected 8, In line 800, at 14:38:0
-339, arrived 31, Rejected 3, In line 800, at 14:39:0
-340, arrived 29, Rejected 1, In line 800, at 14:40:0
-341, arrived 27, Rejected 0, In line 799, at 14:41:0
-342, arrived 28, Rejected 0, In line 799, at 14:42:0
-343, arrived 37, Rejected 8, In line 800, at 14:43:0
-344, arrived 33, Rejected 5, In line 800, at 14:44:0
-345, arrived 32, Rejected 4, In line 800, at 14:45:0
-346, arrived 32, Rejected 4, In line 800, at 14:46:0
-347, arrived 27, Rejected 0, In line 799, at 14:47:0
-348, arrived 34, Rejected 5, In line 800, at 14:48:0
-349, arrived 44, Rejected 16, In line 800, at 14:49:0
-350, arrived 36, Rejected 8, In line 800, at 14:50:0
-351, arrived 31, Rejected 3, In line 800, at 14:51:0
-352, arrived 37, Rejected 9, In line 800, at 14:52:0
-353, arrived 39, Rejected 11, In line 800, at 14:53:0
-354, arrived 35, Rejected 7, In line 800, at 14:54:0
-355, arrived 29, Rejected 1, In line 800, at 14:55:0
-356, arrived 42, Rejected 14, In line 800, at 14:56:0
-357, arrived 37, Rejected 9, In line 800, at 14:57:0
-358, arrived 35, Rejected 7, In line 800, at 14:58:0
-359, arrived 30, Rejected 2, In line 800, at 14:59:0
-360, arrived 26, Rejected 0, In line 798, at 15:0:0
-361, arrived 24, Rejected 0, In line 794, at 15:1:0
-362, arrived 30, Rejected 0, In line 796, at 15:2:0
-363, arrived 24, Rejected 0, In line 792, at 15:3:0
-364, arrived 21, Rejected 0, In line 785, at 15:4:0
-365, arrived 23, Rejected 0, In line 780, at 15:5:0
-366, arrived 28, Rejected 0, In line 780, at 15:6:0
-367, arrived 27, Rejected 0, In line 779, at 15:7:0
-368, arrived 36, Rejected 0, In line 787, at 15:8:0
-369, arrived 23, Rejected 0, In line 782, at 15:9:0
-370, arrived 31, Rejected 0, In line 785, at 15:10:0
-371, arrived 20, Rejected 0, In line 777, at 15:11:0
-372, arrived 24, Rejected 0, In line 773, at 15:12:0
-373, arrived 13, Rejected 0, In line 758, at 15:13:0
-374, arrived 29, Rejected 0, In line 759, at 15:14:0
-375, arrived 29, Rejected 0, In line 760, at 15:15:0
-376, arrived 22, Rejected 0, In line 754, at 15:16:0
-377, arrived 19, Rejected 0, In line 745, at 15:17:0
-378, arrived 31, Rejected 0, In line 748, at 15:18:0
-379, arrived 28, Rejected 0, In line 748, at 15:19:0
-380, arrived 17, Rejected 0, In line 737, at 15:20:0
-381, arrived 24, Rejected 0, In line 733, at 15:21:0
-382, arrived 37, Rejected 0, In line 742, at 15:22:0
-383, arrived 28, Rejected 0, In line 742, at 15:23:0
-384, arrived 21, Rejected 0, In line 735, at 15:24:0
-385, arrived 25, Rejected 0, In line 732, at 15:25:0
-386, arrived 31, Rejected 0, In line 735, at 15:26:0
-387, arrived 19, Rejected 0, In line 726, at 15:27:0
-388, arrived 19, Rejected 0, In line 717, at 15:28:0
-389, arrived 23, Rejected 0, In line 712, at 15:29:0
-390, arrived 22, Rejected 0, In line 706, at 15:30:0
-391, arrived 27, Rejected 0, In line 705, at 15:31:0
-392, arrived 29, Rejected 0, In line 706, at 15:32:0
-393, arrived 19, Rejected 0, In line 697, at 15:33:0
-394, arrived 17, Rejected 0, In line 686, at 15:34:0
-395, arrived 17, Rejected 0, In line 675, at 15:35:0
-396, arrived 24, Rejected 0, In line 671, at 15:36:0
-397, arrived 29, Rejected 0, In line 672, at 15:37:0
-398, arrived 27, Rejected 0, In line 671, at 15:38:0
-399, arrived 24, Rejected 0, In line 667, at 15:39:0
-400, arrived 19, Rejected 0, In line 658, at 15:40:0
-401, arrived 26, Rejected 0, In line 656, at 15:41:0
-402, arrived 26, Rejected 0, In line 654, at 15:42:0
-403, arrived 25, Rejected 0, In line 651, at 15:43:0
-404, arrived 26, Rejected 0, In line 649, at 15:44:0
-405, arrived 23, Rejected 0, In line 644, at 15:45:0
-406, arrived 22, Rejected 0, In line 638, at 15:46:0
-407, arrived 31, Rejected 0, In line 641, at 15:47:0
-408, arrived 25, Rejected 0, In line 638, at 15:48:0
-409, arrived 20, Rejected 0, In line 630, at 15:49:0
-410, arrived 26, Rejected 0, In line 628, at 15:50:0
-411, arrived 25, Rejected 0, In line 625, at 15:51:0
-412, arrived 26, Rejected 0, In line 623, at 15:52:0
-413, arrived 26, Rejected 0, In line 621, at 15:53:0
-414, arrived 21, Rejected 0, In line 614, at 15:54:0
-415, arrived 30, Rejected 0, In line 616, at 15:55:0
-416, arrived 18, Rejected 0, In line 606, at 15:56:0
-417, arrived 19, Rejected 0, In line 597, at 15:57:0
-418, arrived 32, Rejected 0, In line 601, at 15:58:0
-419, arrived 20, Rejected 0, In line 593, at 15:59:0
-420, arrived 25, Rejected 0, In line 590, at 16:0:0
-421, arrived 21, Rejected 0, In line 583, at 16:1:0
-422, arrived 30, Rejected 0, In line 585, at 16:2:0
-423, arrived 22, Rejected 0, In line 579, at 16:3:0
-424, arrived 23, Rejected 0, In line 574, at 16:4:0
-425, arrived 31, Rejected 0, In line 577, at 16:5:0
-426, arrived 23, Rejected 0, In line 572, at 16:6:0
-427, arrived 29, Rejected 0, In line 573, at 16:7:0
-428, arrived 27, Rejected 0, In line 572, at 16:8:0
-429, arrived 16, Rejected 0, In line 560, at 16:9:0
-430, arrived 22, Rejected 0, In line 554, at 16:10:0
-431, arrived 29, Rejected 0, In line 555, at 16:11:0
-432, arrived 26, Rejected 0, In line 553, at 16:12:0
-433, arrived 30, Rejected 0, In line 555, at 16:13:0
-434, arrived 22, Rejected 0, In line 549, at 16:14:0
-435, arrived 21, Rejected 0, In line 542, at 16:15:0
-436, arrived 21, Rejected 0, In line 535, at 16:16:0
-437, arrived 26, Rejected 0, In line 533, at 16:17:0
-438, arrived 19, Rejected 0, In line 524, at 16:18:0
-439, arrived 27, Rejected 0, In line 523, at 16:19:0
-440, arrived 29, Rejected 0, In line 524, at 16:20:0
-441, arrived 28, Rejected 0, In line 524, at 16:21:0
-442, arrived 21, Rejected 0, In line 517, at 16:22:0
-443, arrived 24, Rejected 0, In line 513, at 16:23:0
-444, arrived 22, Rejected 0, In line 507, at 16:24:0
-445, arrived 24, Rejected 0, In line 503, at 16:25:0
-446, arrived 21, Rejected 0, In line 496, at 16:26:0
-447, arrived 23, Rejected 0, In line 491, at 16:27:0
-448, arrived 25, Rejected 0, In line 488, at 16:28:0
-449, arrived 20, Rejected 0, In line 480, at 16:29:0
-450, arrived 26, Rejected 0, In line 478, at 16:30:0
-451, arrived 15, Rejected 0, In line 465, at 16:31:0
-452, arrived 23, Rejected 0, In line 460, at 16:32:0
-453, arrived 23, Rejected 0, In line 455, at 16:33:0
-454, arrived 22, Rejected 0, In line 449, at 16:34:0
-455, arrived 28, Rejected 0, In line 449, at 16:35:0
-456, arrived 22, Rejected 0, In line 443, at 16:36:0
-457, arrived 27, Rejected 0, In line 442, at 16:37:0
-458, arrived 25, Rejected 0, In line 439, at 16:38:0
-459, arrived 32, Rejected 0, In line 443, at 16:39:0
-460, arrived 27, Rejected 0, In line 442, at 16:40:0
-461, arrived 29, Rejected 0, In line 443, at 16:41:0
-462, arrived 27, Rejected 0, In line 442, at 16:42:0
-463, arrived 22, Rejected 0, In line 436, at 16:43:0
-464, arrived 27, Rejected 0, In line 435, at 16:44:0
-465, arrived 13, Rejected 0, In line 420, at 16:45:0
-466, arrived 25, Rejected 0, In line 417, at 16:46:0
-467, arrived 30, Rejected 0, In line 419, at 16:47:0
-468, arrived 26, Rejected 0, In line 417, at 16:48:0
-469, arrived 27, Rejected 0, In line 416, at 16:49:0
-470, arrived 25, Rejected 0, In line 413, at 16:50:0
-471, arrived 24, Rejected 0, In line 409, at 16:51:0
-472, arrived 23, Rejected 0, In line 404, at 16:52:0
-473, arrived 28, Rejected 0, In line 404, at 16:53:0
-474, arrived 29, Rejected 0, In line 405, at 16:54:0
-475, arrived 27, Rejected 0, In line 404, at 16:55:0
-476, arrived 20, Rejected 0, In line 396, at 16:56:0
-477, arrived 16, Rejected 0, In line 384, at 16:57:0
-478, arrived 18, Rejected 0, In line 374, at 16:58:0
-479, arrived 27, Rejected 0, In line 373, at 16:59:0
-480, arrived 21, Rejected 0, In line 366, at 17:0:0
-481, arrived 26, Rejected 0, In line 364, at 17:1:0
-482, arrived 28, Rejected 0, In line 364, at 17:2:0
-483, arrived 26, Rejected 0, In line 362, at 17:3:0
-484, arrived 11, Rejected 0, In line 345, at 17:4:0
-485, arrived 13, Rejected 0, In line 330, at 17:5:0
-486, arrived 22, Rejected 0, In line 324, at 17:6:0
-487, arrived 22, Rejected 0, In line 318, at 17:7:0
-488, arrived 27, Rejected 0, In line 317, at 17:8:0
-489, arrived 30, Rejected 0, In line 319, at 17:9:0
-490, arrived 20, Rejected 0, In line 311, at 17:10:0
-491, arrived 23, Rejected 0, In line 306, at 17:11:0
-492, arrived 27, Rejected 0, In line 305, at 17:12:0
-493, arrived 31, Rejected 0, In line 308, at 17:13:0
-494, arrived 27, Rejected 0, In line 307, at 17:14:0
-495, arrived 22, Rejected 0, In line 301, at 17:15:0
-496, arrived 31, Rejected 0, In line 304, at 17:16:0
-497, arrived 21, Rejected 0, In line 297, at 17:17:0
-498, arrived 20, Rejected 0, In line 289, at 17:18:0
-499, arrived 25, Rejected 0, In line 286, at 17:19:0
-500, arrived 30, Rejected 0, In line 288, at 17:20:0
-501, arrived 27, Rejected 0, In line 287, at 17:21:0
-502, arrived 32, Rejected 0, In line 291, at 17:22:0
-503, arrived 21, Rejected 0, In line 284, at 17:23:0
-504, arrived 24, Rejected 0, In line 280, at 17:24:0
-505, arrived 28, Rejected 0, In line 280, at 17:25:0
-506, arrived 31, Rejected 0, In line 283, at 17:26:0
-507, arrived 25, Rejected 0, In line 280, at 17:27:0
-508, arrived 28, Rejected 0, In line 280, at 17:28:0
-509, arrived 33, Rejected 0, In line 285, at 17:29:0
-510, arrived 21, Rejected 0, In line 278, at 17:30:0
-511, arrived 32, Rejected 0, In line 282, at 17:31:0
-512, arrived 25, Rejected 0, In line 279, at 17:32:0
-513, arrived 33, Rejected 0, In line 284, at 17:33:0
-514, arrived 25, Rejected 0, In line 281, at 17:34:0
-515, arrived 25, Rejected 0, In line 278, at 17:35:0
-516, arrived 33, Rejected 0, In line 283, at 17:36:0
-517, arrived 29, Rejected 0, In line 284, at 17:37:0
-518, arrived 29, Rejected 0, In line 285, at 17:38:0
-519, arrived 26, Rejected 0, In line 283, at 17:39:0
-520, arrived 27, Rejected 0, In line 282, at 17:40:0
-521, arrived 39, Rejected 0, In line 293, at 17:41:0
-522, arrived 33, Rejected 0, In line 298, at 17:42:0
-523, arrived 23, Rejected 0, In line 293, at 17:43:0
-524, arrived 31, Rejected 0, In line 296, at 17:44:0
-525, arrived 26, Rejected 0, In line 294, at 17:45:0
-526, arrived 27, Rejected 0, In line 293, at 17:46:0
-527, arrived 28, Rejected 0, In line 293, at 17:47:0
-528, arrived 29, Rejected 0, In line 294, at 17:48:0
-529, arrived 29, Rejected 0, In line 295, at 17:49:0
-530, arrived 22, Rejected 0, In line 289, at 17:50:0
-531, arrived 26, Rejected 0, In line 287, at 17:51:0
-532, arrived 24, Rejected 0, In line 283, at 17:52:0
-533, arrived 20, Rejected 0, In line 275, at 17:53:0
-534, arrived 29, Rejected 0, In line 276, at 17:54:0
-535, arrived 31, Rejected 0, In line 279, at 17:55:0
-536, arrived 31, Rejected 0, In line 282, at 17:56:0
-537, arrived 27, Rejected 0, In line 281, at 17:57:0
-538, arrived 24, Rejected 0, In line 277, at 17:58:0
-539, arrived 26, Rejected 0, In line 275, at 17:59:0
-540, arrived 26, Rejected 0, In line 273, at 18:0:0
-541, arrived 27, Rejected 0, In line 272, at 18:1:0
-542, arrived 25, Rejected 0, In line 269, at 18:2:0
-543, arrived 20, Rejected 0, In line 261, at 18:3:0
-544, arrived 26, Rejected 0, In line 259, at 18:4:0
-545, arrived 16, Rejected 0, In line 247, at 18:5:0
-546, arrived 28, Rejected 0, In line 247, at 18:6:0
-547, arrived 25, Rejected 0, In line 244, at 18:7:0
-548, arrived 30, Rejected 0, In line 246, at 18:8:0
-549, arrived 25, Rejected 0, In line 243, at 18:9:0
-550, arrived 19, Rejected 0, In line 234, at 18:10:0
-551, arrived 25, Rejected 0, In line 231, at 18:11:0
-552, arrived 25, Rejected 0, In line 228, at 18:12:0
-553, arrived 17, Rejected 0, In line 217, at 18:13:0
-554, arrived 29, Rejected 0, In line 218, at 18:14:0
-555, arrived 23, Rejected 0, In line 213, at 18:15:0
-556, arrived 27, Rejected 0, In line 212, at 18:16:0
-557, arrived 24, Rejected 0, In line 208, at 18:17:0
-558, arrived 20, Rejected 0, In line 200, at 18:18:0
-559, arrived 24, Rejected 0, In line 196, at 18:19:0
-560, arrived 21, Rejected 0, In line 189, at 18:20:0
-561, arrived 24, Rejected 0, In line 185, at 18:21:0
-562, arrived 15, Rejected 0, In line 172, at 18:22:0
-563, arrived 28, Rejected 0, In line 172, at 18:23:0
-564, arrived 26, Rejected 0, In line 170, at 18:24:0
-565, arrived 29, Rejected 0, In line 171, at 18:25:0
-566, arrived 26, Rejected 0, In line 169, at 18:26:0
-567, arrived 24, Rejected 0, In line 165, at 18:27:0
-568, arrived 25, Rejected 0, In line 162, at 18:28:0
-569, arrived 39, Rejected 0, In line 173, at 18:29:0
-570, arrived 17, Rejected 0, In line 162, at 18:30:0
-571, arrived 18, Rejected 0, In line 152, at 18:31:0
-572, arrived 27, Rejected 0, In line 151, at 18:32:0
-573, arrived 26, Rejected 0, In line 149, at 18:33:0
-574, arrived 21, Rejected 0, In line 142, at 18:34:0
-575, arrived 21, Rejected 0, In line 135, at 18:35:0
-576, arrived 27, Rejected 0, In line 134, at 18:36:0
-577, arrived 32, Rejected 0, In line 138, at 18:37:0
-578, arrived 28, Rejected 0, In line 138, at 18:38:0
-579, arrived 24, Rejected 0, In line 134, at 18:39:0
-580, arrived 24, Rejected 0, In line 130, at 18:40:0
-581, arrived 30, Rejected 0, In line 132, at 18:41:0
-582, arrived 34, Rejected 0, In line 138, at 18:42:0
-583, arrived 33, Rejected 0, In line 143, at 18:43:0
-584, arrived 31, Rejected 0, In line 146, at 18:44:0
-585, arrived 29, Rejected 0, In line 147, at 18:45:0
-586, arrived 23, Rejected 0, In line 142, at 18:46:0
-587, arrived 25, Rejected 0, In line 139, at 18:47:0
-588, arrived 21, Rejected 0, In line 132, at 18:48:0
-589, arrived 25, Rejected 0, In line 129, at 18:49:0
-590, arrived 33, Rejected 0, In line 134, at 18:50:0
-591, arrived 24, Rejected 0, In line 130, at 18:51:0
-592, arrived 31, Rejected 0, In line 133, at 18:52:0
-593, arrived 35, Rejected 0, In line 140, at 18:53:0
-594, arrived 20, Rejected 0, In line 132, at 18:54:0
-595, arrived 24, Rejected 0, In line 128, at 18:55:0
-596, arrived 29, Rejected 0, In line 129, at 18:56:0
-597, arrived 29, Rejected 0, In line 130, at 18:57:0
-598, arrived 32, Rejected 0, In line 134, at 18:58:0
-599, arrived 22, Rejected 0, In line 128, at 18:59:0
-Total attendance: 19404
-Total people that went on ride: 16622
-Total people rejected: 2882
-Average waiting time: 16 Minutes
-Longest line was 800 people at 14:59:0
+0,30,0,30
+1,24,0,26
+2,29,0,29
+3,29,0,30
+4,32,0,34
+5,21,0,27
+6,23,0,23
+7,29,0,29
+8,22,0,23
+9,26,0,26
+10,25,0,25
+11,26,0,26
+12,23,0,23
+13,25,0,25
+14,34,0,34
+15,32,0,38
+16,27,0,37
+17,28,0,37
+18,20,0,29
+19,26,0,27
+20,15,0,15
+21,21,0,21
+22,20,0,20
+23,29,0,29
+24,20,0,21
+25,24,0,24
+26,19,0,19
+27,19,0,19
+28,42,0,42
+29,21,0,35
+30,25,0,32
+31,30,0,34
+32,26,0,32
+33,22,0,26
+34,27,0,27
+35,25,0,25
+36,25,0,25
+37,35,0,35
+38,22,0,29
+39,29,0,30
+40,25,0,27
+41,29,0,29
+42,24,0,25
+43,31,0,31
+44,22,0,25
+45,23,0,23
+46,29,0,29
+47,32,0,33
+48,18,0,23
+49,33,0,33
+50,25,0,30
+51,18,0,20
+52,21,0,21
+53,27,0,27
+54,31,0,31
+55,23,0,26
+56,18,0,18
+57,15,0,15
+58,24,0,24
+59,18,0,18
+60,21,0,21
+61,35,0,35
+62,32,0,39
+63,30,0,41
+64,22,0,35
+65,25,0,32
+66,23,0,27
+67,28,0,28
+68,25,0,25
+69,27,0,27
+70,25,0,25
+71,17,0,17
+72,24,0,24
+73,33,0,33
+74,33,0,38
+75,28,0,38
+76,22,0,32
+77,28,0,32
+78,27,0,31
+79,23,0,26
+80,27,0,27
+81,20,0,20
+82,24,0,24
+83,31,0,31
+84,30,0,33
+85,23,0,28
+86,21,0,21
+87,31,0,31
+88,23,0,26
+89,27,0,27
+90,34,0,34
+91,26,0,32
+92,27,0,31
+93,30,0,33
+94,24,0,29
+95,32,0,33
+96,24,0,29
+97,29,0,30
+98,27,0,29
+99,32,0,33
+100,25,0,30
+101,21,0,23
+102,34,0,34
+103,32,0,38
+104,20,0,30
+105,31,0,33
+106,27,0,32
+107,24,0,28
+108,26,0,26
+109,22,0,22
+110,29,0,29
+111,22,0,23
+112,24,0,24
+113,21,0,21
+114,21,0,21
+115,22,0,22
+116,26,0,26
+117,24,0,24
+118,20,0,20
+119,32,0,32
+120,37,0,41
+121,37,0,50
+122,45,0,67
+123,50,0,89
+124,60,0,121
+125,55,0,148
+126,48,0,168
+127,43,0,183
+128,49,0,204
+129,43,0,219
+130,41,0,232
+131,40,0,244
+132,46,0,262
+133,40,0,274
+134,38,0,284
+135,49,0,305
+136,37,0,314
+137,50,0,336
+138,38,0,346
+139,49,0,367
+140,36,0,375
+141,56,0,403
+142,34,0,409
+143,45,0,426
+144,39,0,437
+145,40,0,449
+146,51,0,472
+147,49,0,493
+148,48,0,513
+149,58,0,543
+150,47,0,562
+151,50,0,584
+152,36,0,592
+153,38,0,602
+154,45,0,619
+155,36,0,627
+156,35,0,634
+157,39,0,645
+158,44,0,661
+159,51,0,684
+160,46,0,702
+161,50,0,724
+162,34,0,730
+163,38,0,740
+164,77,0,789
+165,39,0,800
+166,53,25,800
+167,37,9,800
+168,65,37,800
+169,35,7,800
+170,53,25,800
+171,35,7,800
+172,28,0,800
+173,55,27,800
+174,46,18,800
+175,39,11,800
+176,38,10,800
+177,43,15,800
+178,54,26,800
+179,51,23,800
+180,42,14,800
+181,46,18,800
+182,46,18,800
+183,44,16,800
+184,48,20,800
+185,37,9,800
+186,45,17,800
+187,50,22,800
+188,41,13,800
+189,62,34,800
+190,46,18,800
+191,53,25,800
+192,49,21,800
+193,47,19,800
+194,33,5,800
+195,49,21,800
+196,51,23,800
+197,55,27,800
+198,53,25,800
+199,51,23,800
+200,59,31,800
+201,49,21,800
+202,54,26,800
+203,60,32,800
+204,48,20,800
+205,45,17,800
+206,38,10,800
+207,51,23,800
+208,53,25,800
+209,36,8,800
+210,47,19,800
+211,40,12,800
+212,47,19,800
+213,40,12,800
+214,48,20,800
+215,42,14,800
+216,42,14,800
+217,40,12,800
+218,35,7,800
+219,47,19,800
+220,40,12,800
+221,47,19,800
+222,45,17,800
+223,58,30,800
+224,41,13,800
+225,46,18,800
+226,49,21,800
+227,37,9,800
+228,44,16,800
+229,46,18,800
+230,56,28,800
+231,44,16,800
+232,42,14,800
+233,52,24,800
+234,44,16,800
+235,28,0,800
+236,42,14,800
+237,47,19,800
+238,51,23,800
+239,40,12,800
+240,48,20,800
+241,45,17,800
+242,45,17,800
+243,41,13,800
+244,49,21,800
+245,39,11,800
+246,47,19,800
+247,34,6,800
+248,43,15,800
+249,48,20,800
+250,48,20,800
+251,47,19,800
+252,42,14,800
+253,39,11,800
+254,47,19,800
+255,47,19,800
+256,49,21,800
+257,42,14,800
+258,49,21,800
+259,39,11,800
+260,55,27,800
+261,48,20,800
+262,47,19,800
+263,41,13,800
+264,45,17,800
+265,36,8,800
+266,41,13,800
+267,53,25,800
+268,48,20,800
+269,36,8,800
+270,37,9,800
+271,42,14,800
+272,46,18,800
+273,46,18,800
+274,48,20,800
+275,41,13,800
+276,50,22,800
+277,41,13,800
+278,42,14,800
+279,39,11,800
+280,60,32,800
+281,28,0,800
+282,51,23,800
+283,42,14,800
+284,39,11,800
+285,44,16,800
+286,57,29,800
+287,55,27,800
+288,50,22,800
+289,48,20,800
+290,37,9,800
+291,48,20,800
+292,43,15,800
+293,50,22,800
+294,56,28,800
+295,54,26,800
+296,52,24,800
+297,39,11,800
+298,50,22,800
+299,46,18,800
+300,32,4,800
+301,43,15,800
+302,43,15,800
+303,42,14,800
+304,35,7,800
+305,36,8,800
+306,29,1,800
+307,31,3,800
+308,42,14,800
+309,35,7,800
+310,34,6,800
+311,41,13,800
+312,35,7,800
+313,32,4,800
+314,30,2,800
+315,38,10,800
+316,38,10,800
+317,29,1,800
+318,36,8,800
+319,35,7,800
+320,41,13,800
+321,38,10,800
+322,30,2,800
+323,30,2,800
+324,35,7,800
+325,28,0,800
+326,29,1,800
+327,33,5,800
+328,32,4,800
+329,44,16,800
+330,43,15,800
+331,37,9,800
+332,41,13,800
+333,40,12,800
+334,35,7,800
+335,32,4,800
+336,33,5,800
+337,37,9,800
+338,36,8,800
+339,31,3,800
+340,29,1,800
+341,27,0,799
+342,28,0,799
+343,37,8,800
+344,33,5,800
+345,32,4,800
+346,32,4,800
+347,27,0,799
+348,34,5,800
+349,44,16,800
+350,36,8,800
+351,31,3,800
+352,37,9,800
+353,39,11,800
+354,35,7,800
+355,29,1,800
+356,42,14,800
+357,37,9,800
+358,35,7,800
+359,30,2,800
+360,26,0,798
+361,24,0,794
+362,30,0,796
+363,24,0,792
+364,21,0,785
+365,23,0,780
+366,28,0,780
+367,27,0,779
+368,36,0,787
+369,23,0,782
+370,31,0,785
+371,20,0,777
+372,24,0,773
+373,13,0,758
+374,29,0,759
+375,29,0,760
+376,22,0,754
+377,19,0,745
+378,31,0,748
+379,28,0,748
+380,17,0,737
+381,24,0,733
+382,37,0,742
+383,28,0,742
+384,21,0,735
+385,25,0,732
+386,31,0,735
+387,19,0,726
+388,19,0,717
+389,23,0,712
+390,22,0,706
+391,27,0,705
+392,29,0,706
+393,19,0,697
+394,17,0,686
+395,17,0,675
+396,24,0,671
+397,29,0,672
+398,27,0,671
+399,24,0,667
+400,19,0,658
+401,26,0,656
+402,26,0,654
+403,25,0,651
+404,26,0,649
+405,23,0,644
+406,22,0,638
+407,31,0,641
+408,25,0,638
+409,20,0,630
+410,26,0,628
+411,25,0,625
+412,26,0,623
+413,26,0,621
+414,21,0,614
+415,30,0,616
+416,18,0,606
+417,19,0,597
+418,32,0,601
+419,20,0,593
+420,25,0,590
+421,21,0,583
+422,30,0,585
+423,22,0,579
+424,23,0,574
+425,31,0,577
+426,23,0,572
+427,29,0,573
+428,27,0,572
+429,16,0,560
+430,22,0,554
+431,29,0,555
+432,26,0,553
+433,30,0,555
+434,22,0,549
+435,21,0,542
+436,21,0,535
+437,26,0,533
+438,19,0,524
+439,27,0,523
+440,29,0,524
+441,28,0,524
+442,21,0,517
+443,24,0,513
+444,22,0,507
+445,24,0,503
+446,21,0,496
+447,23,0,491
+448,25,0,488
+449,20,0,480
+450,26,0,478
+451,15,0,465
+452,23,0,460
+453,23,0,455
+454,22,0,449
+455,28,0,449
+456,22,0,443
+457,27,0,442
+458,25,0,439
+459,32,0,443
+460,27,0,442
+461,29,0,443
+462,27,0,442
+463,22,0,436
+464,27,0,435
+465,13,0,420
+466,25,0,417
+467,30,0,419
+468,26,0,417
+469,27,0,416
+470,25,0,413
+471,24,0,409
+472,23,0,404
+473,28,0,404
+474,29,0,405
+475,27,0,404
+476,20,0,396
+477,16,0,384
+478,18,0,374
+479,27,0,373
+480,21,0,366
+481,26,0,364
+482,28,0,364
+483,26,0,362
+484,11,0,345
+485,13,0,330
+486,22,0,324
+487,22,0,318
+488,27,0,317
+489,30,0,319
+490,20,0,311
+491,23,0,306
+492,27,0,305
+493,31,0,308
+494,27,0,307
+495,22,0,301
+496,31,0,304
+497,21,0,297
+498,20,0,289
+499,25,0,286
+500,30,0,288
+501,27,0,287
+502,32,0,291
+503,21,0,284
+504,24,0,280
+505,28,0,280
+506,31,0,283
+507,25,0,280
+508,28,0,280
+509,33,0,285
+510,21,0,278
+511,32,0,282
+512,25,0,279
+513,33,0,284
+514,25,0,281
+515,25,0,278
+516,33,0,283
+517,29,0,284
+518,29,0,285
+519,26,0,283
+520,27,0,282
+521,39,0,293
+522,33,0,298
+523,23,0,293
+524,31,0,296
+525,26,0,294
+526,27,0,293
+527,28,0,293
+528,29,0,294
+529,29,0,295
+530,22,0,289
+531,26,0,287
+532,24,0,283
+533,20,0,275
+534,29,0,276
+535,31,0,279
+536,31,0,282
+537,27,0,281
+538,24,0,277
+539,26,0,275
+540,26,0,273
+541,27,0,272
+542,25,0,269
+543,20,0,261
+544,26,0,259
+545,16,0,247
+546,28,0,247
+547,25,0,244
+548,30,0,246
+549,25,0,243
+550,19,0,234
+551,25,0,231
+552,25,0,228
+553,17,0,217
+554,29,0,218
+555,23,0,213
+556,27,0,212
+557,24,0,208
+558,20,0,200
+559,24,0,196
+560,21,0,189
+561,24,0,185
+562,15,0,172
+563,28,0,172
+564,26,0,170
+565,29,0,171
+566,26,0,169
+567,24,0,165
+568,25,0,162
+569,39,0,173
+570,17,0,162
+571,18,0,152
+572,27,0,151
+573,26,0,149
+574,21,0,142
+575,21,0,135
+576,27,0,134
+577,32,0,138
+578,28,0,138
+579,24,0,134
+580,24,0,130
+581,30,0,132
+582,34,0,138
+583,33,0,143
+584,31,0,146
+585,29,0,147
+586,23,0,142
+587,25,0,139
+588,21,0,132
+589,25,0,129
+590,33,0,134
+591,24,0,130
+592,31,0,133
+593,35,0,140
+594,20,0,132
+595,24,0,128
+596,29,0,129
+597,29,0,130
+598,32,0,134
+599,22,0,128
