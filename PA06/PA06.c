@@ -199,7 +199,7 @@ int main(int argc, char *argv[]) {
 
 	int TotalRide = TotalPeopleShowed - Rejected;	// Calculate amount of people who rode ride
 	Rejected += PeopleWaiting;					// Add people who were in line at close to rejected
-	int AverageWaitTime = TimeWaiting / TotalRide;	// Calculate average wait time (MAY BE BROKEN)
+	int AverageWaitTime = TimeWaiting / TotalPeopleShowed;	// Calculate average wait time (MAY BE BROKEN)
 
 	printf("Total attendance: %d\n", TotalPeopleShowed);
 	printf("Total people that went on ride: %d\n",TotalRide);
