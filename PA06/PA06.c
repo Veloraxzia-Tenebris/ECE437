@@ -124,13 +124,7 @@ void *RideOperator(void *varp){
 		PeopleWaiting = MAXWAITPEOPLE;
 	}
 	if(PeopleWaiting > (CARNUM * MAXPERCAR)) {
-		int tpw = PeopleWaiting;
-		while((int) ceil(tpw / (CARNUM * MAXPERCAR))) {
-			// Calculate time waiting 
-			int WaitTime = ceil(tpw / (CARNUM * MAXPERCAR)) - 1;
-			TimeWaiting += WaitTime * (CARNUM * MAXPERCAR);
-			tpw -= CARNUM * MAXPERCAR;
-		}
+		TimeWaiting += PeopleWaiting
 	}
 	// Update worst time if we have a longer line added >= so if there is 800 people again the worst time updates
 	if(PeopleWaiting >= LongestLine) {
@@ -199,7 +193,7 @@ int main(int argc, char *argv[]) {
 
 	int TotalRide = TotalPeopleShowed - Rejected;	// Calculate amount of people who rode ride
 	Rejected += PeopleWaiting;					// Add people who were in line at close to rejected
-	int AverageWaitTime = TimeWaiting / TotalPeopleShowed;	// Calculate average wait time (MAY BE BROKEN)
+	int AverageWaitTime = TimeWaiting / TotalRide;	// Calculate average wait time (MAY BE BROKEN)
 
 	printf("Total attendance: %d\n", TotalPeopleShowed);
 	printf("Total people that went on ride: %d\n",TotalRide);
